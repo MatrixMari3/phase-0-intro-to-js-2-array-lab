@@ -22,7 +22,7 @@ function appendCat(name) {
 }
 
 function prependCat(name){
-    return ["Arnold", ...cats];
+    return [name, ...cats];
 }
 
 function removeLastCat(name){
